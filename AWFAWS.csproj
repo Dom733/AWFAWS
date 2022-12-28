@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{83D2EF2C-6E07-40B6-8509-E092D21B8177}</ProjectGuid>
+    <ProjectGuid>{63701022-8D58-44BC-AE90-AF5601911A34}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>AWFAWS</RootNamespace>
     <AssemblyName>AWFAWS</AssemblyName>
