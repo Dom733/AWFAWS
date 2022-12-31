@@ -3,9 +3,10 @@ D:\Programming Bois\AWFAWS\bin\Debug\AWFAWS.exe
 D:\Programming Bois\AWFAWS\bin\Debug\AWFAWS.pdb
 D:\Programming Bois\AWFAWS\obj\Debug\AWFAWS.csproj.AssemblyReference.cache
 D:\Programming Bois\AWFAWS\obj\Debug\AWFAWS.csproj.SuggestedBindingRedirects.cache
-D:\Programming Bois\AWFAWS\obj\Debug\AWFAWS.Display.resources
 D:\Programming Bois\AWFAWS\obj\Debug\AWFAWS.Properties.Resources.resources
 D:\Programming Bois\AWFAWS\obj\Debug\AWFAWS.csproj.GenerateResource.cache
 D:\Programming Bois\AWFAWS\obj\Debug\AWFAWS.csproj.CoreCompileInputs.cache
 D:\Programming Bois\AWFAWS\obj\Debug\AWFAWS.exe
 D:\Programming Bois\AWFAWS\obj\Debug\AWFAWS.pdb
+D:\Programming Bois\AWFAWS\obj\Debug\AWFAWS.DisplayControl.resources
+D:\Programming Bois\AWFAWS\obj\Debug\AWFAWS.Display.resources

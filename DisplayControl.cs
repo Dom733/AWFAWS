@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AWFAWS
 {
-    public partial class Display : Form
+    public partial class DisplayControl : Form
     {
-        public Display()
+        public DisplayControl()
         {
             InitializeComponent();
-        }
-
-        private void Display_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
