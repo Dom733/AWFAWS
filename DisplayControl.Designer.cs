@@ -86,7 +86,7 @@
             "pesokg"});
             this.cbDataCategorySelect.Location = new System.Drawing.Point(184, 6);
             this.cbDataCategorySelect.Name = "cbDataCategorySelect";
-            this.cbDataCategorySelect.Size = new System.Drawing.Size(403, 24);
+            this.cbDataCategorySelect.Size = new System.Drawing.Size(301, 24);
             this.cbDataCategorySelect.TabIndex = 3;
             // 
             // pnlDataModeSelect
@@ -97,7 +97,7 @@
             this.pnlDataModeSelect.Controls.Add(this.rbObservedDataSelect);
             this.pnlDataModeSelect.Location = new System.Drawing.Point(12, 54);
             this.pnlDataModeSelect.Name = "pnlDataModeSelect";
-            this.pnlDataModeSelect.Size = new System.Drawing.Size(590, 36);
+            this.pnlDataModeSelect.Size = new System.Drawing.Size(488, 36);
             this.pnlDataModeSelect.TabIndex = 4;
             // 
             // rbForecastDataSelect
@@ -131,7 +131,7 @@
             this.btnGoToLatest.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 11.25F);
             this.btnGoToLatest.Location = new System.Drawing.Point(365, 12);
             this.btnGoToLatest.Name = "btnGoToLatest";
-            this.btnGoToLatest.Size = new System.Drawing.Size(237, 36);
+            this.btnGoToLatest.Size = new System.Drawing.Size(135, 36);
             this.btnGoToLatest.TabIndex = 5;
             this.btnGoToLatest.Text = "Go to latest data";
             this.btnGoToLatest.UseVisualStyleBackColor = false;
@@ -141,7 +141,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(614, 100);
+            this.ClientSize = new System.Drawing.Size(513, 100);
             this.Controls.Add(this.btnGoToLatest);
             this.Controls.Add(this.pnlDataModeSelect);
             this.Controls.Add(this.lblDataDateTime);
