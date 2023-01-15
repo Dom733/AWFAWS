@@ -37,11 +37,11 @@
             this.rbObservedDataSelect = new System.Windows.Forms.RadioButton();
             this.btnLockToLatest = new System.Windows.Forms.Button();
             this.btnGoToOldest = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnSpeedPrevData = new System.Windows.Forms.Button();
+            this.btnSpeedNextData = new System.Windows.Forms.Button();
+            this.lblHelpText = new System.Windows.Forms.Label();
+            this.btnSelectDT = new System.Windows.Forms.Button();
+            this.btnAnimate = new System.Windows.Forms.Button();
             this.pnlDataModeSelect.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -158,68 +158,68 @@
             this.btnGoToOldest.TabIndex = 6;
             this.btnGoToOldest.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnSpeedPrevData
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(12, 99);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(78, 30);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "<<<<";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnSpeedPrevData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.btnSpeedPrevData.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSpeedPrevData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSpeedPrevData.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpeedPrevData.Location = new System.Drawing.Point(12, 99);
+            this.btnSpeedPrevData.Name = "btnSpeedPrevData";
+            this.btnSpeedPrevData.Size = new System.Drawing.Size(78, 30);
+            this.btnSpeedPrevData.TabIndex = 7;
+            this.btnSpeedPrevData.Text = "<<<<";
+            this.btnSpeedPrevData.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnSpeedNextData
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(365, 99);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(78, 30);
-            this.button3.TabIndex = 8;
-            this.button3.Text = ">>>>";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnSpeedNextData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.btnSpeedNextData.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSpeedNextData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSpeedNextData.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpeedNextData.Location = new System.Drawing.Point(365, 99);
+            this.btnSpeedNextData.Name = "btnSpeedNextData";
+            this.btnSpeedNextData.Size = new System.Drawing.Size(78, 30);
+            this.btnSpeedNextData.TabIndex = 8;
+            this.btnSpeedNextData.Text = ">>>>";
+            this.btnSpeedNextData.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // lblHelpText
             // 
-            this.label2.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 135);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(431, 71);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "This is where the help text will be. As you hover your mouse over the interface, " +
+            this.lblHelpText.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHelpText.Location = new System.Drawing.Point(12, 135);
+            this.lblHelpText.Name = "lblHelpText";
+            this.lblHelpText.Size = new System.Drawing.Size(431, 71);
+            this.lblHelpText.TabIndex = 10;
+            this.lblHelpText.Text = "This is where the help text will be. As you hover your mouse over the interface, " +
     "help will appear on how to use the part you\'re hovered over.";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblHelpText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // button4
+            // btnSelectDT
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(96, 99);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(129, 30);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Select date/time";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnSelectDT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.btnSelectDT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSelectDT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSelectDT.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelectDT.Location = new System.Drawing.Point(96, 99);
+            this.btnSelectDT.Name = "btnSelectDT";
+            this.btnSelectDT.Size = new System.Drawing.Size(129, 30);
+            this.btnSelectDT.TabIndex = 11;
+            this.btnSelectDT.Text = "Select date/time";
+            this.btnSelectDT.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnAnimate
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(231, 99);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(128, 30);
-            this.button5.TabIndex = 12;
-            this.button5.Text = "Animate";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnAnimate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.btnAnimate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAnimate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnimate.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnimate.Location = new System.Drawing.Point(231, 99);
+            this.btnAnimate.Name = "btnAnimate";
+            this.btnAnimate.Size = new System.Drawing.Size(128, 30);
+            this.btnAnimate.TabIndex = 12;
+            this.btnAnimate.Text = "Animate";
+            this.btnAnimate.UseVisualStyleBackColor = false;
             // 
             // DisplayControl
             // 
@@ -227,11 +227,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(455, 217);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnAnimate);
+            this.Controls.Add(this.btnSelectDT);
+            this.Controls.Add(this.lblHelpText);
+            this.Controls.Add(this.btnSpeedNextData);
+            this.Controls.Add(this.btnSpeedPrevData);
             this.Controls.Add(this.btnGoToOldest);
             this.Controls.Add(this.btnLockToLatest);
             this.Controls.Add(this.pnlDataModeSelect);
@@ -258,11 +258,11 @@
         private System.Windows.Forms.RadioButton rbObservedDataSelect;
         private System.Windows.Forms.Button btnLockToLatest;
         private System.Windows.Forms.Button btnGoToOldest;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnSpeedPrevData;
+        private System.Windows.Forms.Button btnSpeedNextData;
+        private System.Windows.Forms.Label lblHelpText;
+        private System.Windows.Forms.Button btnSelectDT;
+        private System.Windows.Forms.Button btnAnimate;
     }
 }
 
